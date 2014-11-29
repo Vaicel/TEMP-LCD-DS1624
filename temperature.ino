@@ -25,7 +25,7 @@ void setup() {
 
 void loop() {
   lcd.print("Temp:");
-  //Получаемпоказания с датчика
+  //Получаем показания с датчика
   temperature.getTemp();
   delay(200);
   lcd.setCursor(0,1);
